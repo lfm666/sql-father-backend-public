@@ -2,8 +2,8 @@ spring:
   application:
     name: sql-father-backend
   # 默认 dev 环境
-  profiles:
-    active: dev
+#  profiles:
+#    active: dev
   # 支持 swagger3
   mvc:
     pathmatch:
@@ -11,9 +11,9 @@ spring:
   # 数据库配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/sqlfather
+    url: jdbc:mysql://192.168.5.2:3306/sqlfather
     username: root
-    password: 123456
+    password: lfm666+-.@
 server:
   address: 0.0.0.0
   port: 8102
